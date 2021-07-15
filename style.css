@@ -1,0 +1,43 @@
+body {
+    color:black;
+    background-color:white;
+    background-image: url(images/Zen.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:inherit;
+    min-height: 100vh; 
+}
+#bloc{
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 3em;
+    font-family: 'Allura', cursive;
+}
+blockquote{
+    display: flex;
+    justify-content: center;
+    margin : 50px, 0px;
+}
+#auteur{
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+    
+}
+button{
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    transition: all 0.5s ease-in 0s;
+    background-color: black;
+}
+button:hover{
+    padding: 30px;
+    border-radius: 45px;
+    background-color: #d7b681;
+    transition: all 0.5s ease-in 0s;
+}
+
+
